@@ -71,3 +71,17 @@ form button{
   bottom: 10px;
   left: 10px;
 }
+
+#book-details{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  padding: 30px;
+  overflow: auto;
+  background-color: #ad1457;
+  box-sizing: border-box;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
