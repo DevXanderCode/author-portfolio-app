@@ -85,3 +85,26 @@ form button{
   box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
   color: #fff;
 }
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  #main{
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+  } 
+  #book-details{
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 30px;
+    overflow: auto;
+  }
+  form {
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
